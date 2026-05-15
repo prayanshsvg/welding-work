@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Shri Hari Welding Workshop</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- LOADER -->
+
+<div class="loader-wrapper" id="loader">
+  <div class="loader"></div>
+</div>
+
+<!-- TOP BAR -->
+
+<div class="top-bar">
+  <p>Shri Hari Welding Workshop | Aluminium | Steel | Iron Fabrication</p>
+</div>
+
+<!-- NAVBAR -->
+
+<header>
+
+  <nav class="navbar">
+
+    <div class="logo">
+
+      <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="logo">
+
+      <div>
+        <h1>श्री <span>हरि</span> वेल्डिंग वर्कशॉप</h1>
+        <h3>Industrial Fabrication Works - Barghat</h3>
+      </div>
+
+    </div>
+
+    <ul class="nav-links">
+
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <a href="#contact">
+      <button class="quote-btn">Get Quote</button>
+    </a>
+
+    <div class="menu-btn">☰</div>
+
+  </nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+  <div class="slide active"
+  style="background-image:url('https://i.pinimg.com/736x/69/e0/e3/69e0e35ea278fb3bf8a5e028582fef66.jpg')">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+      <h1>Modern Aluminium & Steel Fabrication</h1>
+
+      <p>
+        Premium Welding Solutions for Windows,
+        Steel Doors, Maharaja Gates and Shutters
+      </p>
+
+      <a href="#products">
+        <button class="main-btn">Explore Products</button>
+      </a>
+
+    </div>
+
+  </div>
+
+  <div class="slide"
+  style="background-image:url('https://i.pinimg.com/736x/67/a2/6a/67a26aae640f57afee22c1f412a88c32.jpg')">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+      <h1>Luxury Maharaja Gate Designs</h1>
+
+      <p>
+        Attractive Modern Fabrication Designs
+        for Home and Commercial Projects
+      </p>
+
+    </div>
+
+  </div>
+
+  <button class="prev">❮</button>
+  <button class="next">❯</button>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+  <div class="about-left">
+
+    <p class="small-title">ABOUT US</p>
+
+    <h2>
+      We Create Premium Industrial Fabrication Designs
+    </h2>
+
+    <div class="line"></div>
+
+    <p>
+      Shri Hari Welding Workshop provides modern aluminium windows,
+      steel doors, maharaja gates, rolling shutters and welding solutions.
+    </p>
+
+  </div>
+
+  <div class="about-right">
+
+    <div class="about-card">
+      <h3>4000+</h3>
+      <p>Window Designs</p>
+    </div>
+
+    <div class="about-card">
+      <h3>3000+</h3>
+      <p>Door Designs</p>
+    </div>
+
+    <div class="about-card">
+      <h3>1000+</h3>
+      <p>Maharaja Gates</p>
+    </div>
+
+    <div class="about-card">
+      <h3>30000+</h3>
+      <p>Projects</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- PRODUCTS SECTION -->
+
+<section class="products-section">
+
+  <div class="section-heading">
+
+    <p>OUR PRODUCTS</p>
+
+    <h2>Premium Fabrication Products</h2>
+
+  </div>
+
+  <div class="products-container">
+
+    <!-- CARD 1 -->
+
+    <div class="product-card">
+
+      <img src="https://i.pinimg.com/736x/4d/e0/2e/4de02e5067b4db95d2d0ec0f39f11e5b.jpg" alt="window">
+
+      <div class="card-content">
+
+        <h3>Aluminium Windows</h3>
+
+        <button onclick="openProductPage('products.html')">
+          Explore
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- CARD 2 -->
+
+    <div class="product-card">
+
+      <img src="https://i.pinimg.com/736x/31/0f/f0/310ff01cb4e5f42db5c0e4fd5f6fb18d.jpg" alt="door">
+
+      <div class="card-content">
+
+        <h3>Steel Doors</h3>
+
+        <button onclick="openProductPage('doors.html')">
+          Explore
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- CARD 3 -->
+
+    <div class="product-card">
+
+      <img src="https://i.pinimg.com/736x/f0/fd/3e/f0fd3e855e0d90f5bc447c6a95dd31fd.jpg" alt="gate">
+
+      <div class="card-content">
+
+        <h3>Iron Grill</h3>
+
+        <button onclick="openProductPage('grill.html')">
+          Explore
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- CARD 4 -->
+
+    <div class="product-card">
+
+      <img src="https://i.pinimg.com/736x/20/c9/6f/20c96f6bd85b2b814d5dcdaac1e7f7cb.jpg" alt="grill">
+
+      <div class="card-content">
+
+        <h3>Steel Grill</h3>
+
+        <button onclick="openProductPage('steelgrill.html')">
+          Explore
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="gallery" id="gallery">
+
+  <div class="section-title">
+    <p>OUR GALLERY</p>
+    <h2>Recent Projects</h2>
+  </div>
+
+  <div class="gallery-grid" id="galleryGrid"></div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+  <div class="contact-left">
+
+    <h2>Contact Us</h2>
+
+    <p>📞 +91 8889401678</p>
+
+    <p>📧 shrihariweldingworks@gmail.com</p>
+
+    <p>📍 Mundapar Road, Barghat</p>
+
+  </div>
+
+  <form
+  class="contact-form"
+  action="https://formsubmit.co/shrihariweldingworks@gmail.com"
+  method="POST"
+  onsubmit="sendWhatsAppMessage()"
+  >
+
+    <input type="text" id="name" placeholder="Your Name" required>
+
+    <input type="text" id="phone" placeholder="Phone Number" required>
+
+    <textarea rows="5" id="requirement" placeholder="Your Requirement"></textarea>
+
+    <input type="hidden" name="_captcha" value="false">
+
+    <button class="main-btn">Send Inquiry</button>
+
+  </form>
+
+</section>
+
+<!-- WHATSAPP FLOAT -->
+
+<a href="https://wa.me/918889401678" class="whatsapp-btn" target="_blank">
+  💬
+</a>
+
+<footer>
+
+  <p>
+    © 2026 Shri Hari Welding Workshop |
+    All Rights Reserved
+  </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
